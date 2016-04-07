@@ -12,6 +12,7 @@
 		8DD5CAFB1CB5E37D002201A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD5CAFA1CB5E37D002201A8 /* Images.xcassets */; };
 		8DD5CAFE1CB5E37D002201A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD5CAFC1CB5E37D002201A8 /* MainMenu.xib */; };
 		8DD5CB0A1CB5E37D002201A8 /* KeyViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD5CB091CB5E37D002201A8 /* KeyViewDemoTests.m */; };
+		8DD5CB151CB6022F002201A8 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD5CB141CB6022F002201A8 /* MyTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		8DD5CB031CB5E37D002201A8 /* KeyViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD5CB081CB5E37D002201A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DD5CB091CB5E37D002201A8 /* KeyViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyViewDemoTests.m; sourceTree = "<group>"; };
+		8DD5CB131CB6022F002201A8 /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		8DD5CB141CB6022F002201A8 /* MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				8DD5CAF51CB5E37D002201A8 /* AppDelegate.h */,
 				8DD5CAF61CB5E37D002201A8 /* AppDelegate.m */,
+				8DD5CB131CB6022F002201A8 /* MyTextField.h */,
+				8DD5CB141CB6022F002201A8 /* MyTextField.m */,
 				8DD5CAFA1CB5E37D002201A8 /* Images.xcassets */,
 				8DD5CAFC1CB5E37D002201A8 /* MainMenu.xib */,
 				8DD5CAF31CB5E37D002201A8 /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				8DD5CAF91CB5E37D002201A8 /* main.m in Sources */,
 				8DD5CAF71CB5E37D002201A8 /* AppDelegate.m in Sources */,
+				8DD5CB151CB6022F002201A8 /* MyTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +404,7 @@
 				8DD5CB0F1CB5E37D002201A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DD5CB101CB5E37D002201A8 /* Build configuration list for PBXNativeTarget "KeyViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +413,7 @@
 				8DD5CB121CB5E37D002201A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

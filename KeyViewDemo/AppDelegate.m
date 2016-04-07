@@ -39,4 +39,8 @@
 - (IBAction)fourClick:(id)sender {
 	[self.textField setStringValue:@"Clicked Four"];
 }
+
+- (IBAction)textFieldSelect:(id)sender {
+	[self.textField setStringValue:@"Selected Text Field"];
+}
 @end

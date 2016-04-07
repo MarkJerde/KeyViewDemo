@@ -718,13 +718,16 @@
                             <action selector="fourClick:" target="Voe-Tx-rLC" id="bjQ-tX-vVr"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EMR-kZ-qFu">
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EMR-kZ-qFu" customClass="MyTextField">
                         <rect key="frame" x="148" y="87" width="195" height="113"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="knp-DE-wWW">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
+                        <connections>
+                            <action selector="textFieldSelect:" target="Voe-Tx-rLC" id="9R6-Iz-UmB"/>
+                        </connections>
                     </textField>
                 </subviews>
             </view>
