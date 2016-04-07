@@ -14,6 +14,7 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="buttonThree" destination="bM7-ml-cYt" id="oWM-B5-Tyl"/>
                 <outlet property="textField" destination="EMR-kZ-qFu" id="xq0-IQ-pwA"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>

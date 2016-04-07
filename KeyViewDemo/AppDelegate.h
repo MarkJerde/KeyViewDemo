@@ -15,6 +15,7 @@
 - (IBAction)threeClick:(id)sender;
 - (IBAction)fourClick:(id)sender;
 @property (weak) IBOutlet NSTextField *textField;
+@property (weak) IBOutlet NSButton *buttonThree;
 
 @end
 

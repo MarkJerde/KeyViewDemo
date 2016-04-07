@@ -33,6 +33,7 @@
 
 - (IBAction)threeClick:(id)sender {
 	[self.textField setStringValue:@"Clicked Three"];
+	[self.buttonThree setRefusesFirstResponder:YES];
 }
 
 - (IBAction)fourClick:(id)sender {
